@@ -8,13 +8,13 @@ create table projects (
 );
 
 create table users (
-  id primary key integer,
+  id integer primary key,
   name text,
   age integer
 );
 
 create table pledges (
-  id primary key integer,
+  id integer primary key,
   amount integer,
   user integer,
   project integer
