@@ -1,5 +1,5 @@
 create table projects (
-  id primary key integer,
+  id integer primary key,
   title text,
   category text,
   funding_goal integer,
